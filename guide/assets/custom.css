@@ -1,0 +1,56 @@
+/**{
+  padding:0px;
+  margin:0px;
+}*/
+p{
+  font-size: 15px;
+  line-height: 22px;
+}
+figcaption{
+  margin:10px 0px 0px 20px;
+}
+
+a:hover{
+  color: #e74430;
+  cursor: pointer;
+}
+
+#image:hover{
+  cursor:pointer;
+}
+#container{
+  height: 7px;
+  width: 100%;
+  background: -webkit-linear-gradient(left, rgba(255,0,0,0.5), rgba(255,0,0,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(255,0,0,0.5), rgba(255,0,0,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(255,0,0,0.5), rgba(255,0,0,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(255,0,0,0.5), rgba(255,0,0,1)); /* Standard syntax (must be last) */
+}
+.main #container>h1{
+  /*margin:auto;*/
+  text-align: center;
+  float:right;
+  padding:34px 457px 0px 0px;
+}
+.thumbnails {
+  padding: 0;
+  text-align: center;
+  display: block;
+}
+.thumbnails li {
+  width: 30%;
+  list-style-type: none;
+  margin-right: 5%;
+  float: left;
+  min-height: 200px;
+  margin-bottom: 10px;
+}
+.thumbnails li:nth-child(3n) {
+  margin-right: 0;
+}
+.thumbnails li img {
+  width: 100%;
+}
+.modal-dialog{
+  width:65%;
+}

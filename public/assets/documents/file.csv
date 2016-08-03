@@ -1,0 +1,82 @@
+app_settings
+"as_id","key","value","status","created_on","updated_on",
+"1","prior_duration","4","1","2015-09-07 16:20:52","2015-09-07 20:05:52",
+"2","follow_up_duration","28","1","2015-09-07 16:20:52","2015-09-07 20:05:52",
+"3","end_duration","7","1","2015-09-07 16:20:52","2015-09-07 20:05:52",
+
+ci_sessions
+"session_id","ip_address","user_agent","last_activity","user_data",
+
+countries
+"country_id","name",
+"1","Germany",
+
+customer_contacts
+"cc_id","title","firstname","lastname","email","telephone","department","job_title","note","customer_id",
+"1","Mr.","Pradip","Limbu","pradiplimbu23@hotmail.com","+977 9804355833","IT","Manager","Lore ipsum Lore ipsum Lore ipsum","1",
+
+customers
+"customer_id","name","street","postcode","city","country_id",
+"1","BMW","BMW Strasse 13","80111","München","1",
+
+emails
+"email_id","email","type",
+"1","generalemail@test.com","general",
+"2","i8email@test.com","i8",
+
+groups
+"id","name","description",
+"1","admin","Administrator",
+"2","userA","View only within their allocated magazines",
+"3","userB","Modify within their allocated magazines",
+"4","userC","Modify plus see reporting within their allocated magazines",
+"5","userD","See reporting within their allocated magazines",
+
+login_attempts
+"id","ip_address","login","time",
+
+magazine_categories
+"mc_id","name",
+"1","sports",
+
+magazine_editions
+"magazine_edition_id","edition_number","edition_title","edition_start_date","edition_end_date","magazine_id","id",
+
+magazine_user
+"mu_id","id","magazine_id","allocated_on",
+
+magazines
+"magazine_id","name","logo","description","customer_id","mc_id","communication_package","circulation","chapter","language","country_id","first_issue_launch_date","customer_contact","note",
+
+migrations
+"version",
+"9",
+
+offer_emails
+"oe_id","offer_id","magazine_id","partner_id","subject","body","sender_address","receiver_address","cc_address","sendout_datetime","actual_sendout_datetime","attachment","confirm_send","status",
+
+offer_reports
+"report_id","offer_id","no_of_requests","no_of_final_bookings","no_of_participants","no_of_packages_sold","sent_date","comments",
+
+offer_type
+"ot_id","content","type",
+
+offers
+"offer_id","title","customer_id","magazine_id","magazine_edition_id","mc_id","partner_id","partner_contacts","general_offer_type","detail_offer_type","email_communication","location","valid_from","valid_until","street1","street2","post_code","city","country_id","market","e_tracker_code","offer_language","offer","benifit","price","further_information","reservation_telephone","reservation_fax","reservation_email","reservation_url","how_to_book","admin_exclusive_advantage","note","published","offer_status","contract_status","ji_users","editoral_note",
+
+partner_contacts
+"pc_id","partner_id","language","greeting","title","position","firstname","lastname","email","telephone","mobile","note",
+"1","1","en","Hello! How are you.","Mr.","Account Manager","Pradip","Limbu","pradiplimbu23@hotmail.com","+49 (0)171 6401637","+49 (0)171 6401637","Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit",
+
+partners
+"partner_id","name","street","postcode","city","country_id","market","url",
+"1","Hilton Hotels","Hilton Strasse 13","80111","München","1","Market data here","www.hilton.com",
+
+users
+"id","ip_address","username","password","salt","email","activation_code","forgotten_password_code","forgotten_password_time","remember_code","created_on","last_login","active","first_name","last_name","company","phone",
+"1","2130706433","administrator","59beecdf7fc966e2f17fd8f65a4a9aeb09d4a3d4","9462e8eee0","admin@admin.com","","","","","1268889823","1443642356","1","Pradip","Limbu","ADMIN","0",
+
+users_groups
+"id","user_id","group_id",
+"1","1","1",
+

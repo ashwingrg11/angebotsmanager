@@ -1,0 +1,307 @@
+* {
+	margin:0px;
+	padding: 0px;
+	/*font-family: calibri;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	padding-left: 9%;
+	background-color: #002846;
+}
+.row {
+	margin:0px;
+	padding: 0px;
+}
+.container {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-color: #fff;
+	padding: 3%;
+}
+
+header h4 {
+	margin: 0px;
+	padding: 0px;
+	color: #777d89;
+}
+
+header .image {
+	/*height: 30%;*/
+	width: 14%;
+	position: absolute;
+	top:0;
+	right: 5%;
+	background-color: #fff;
+	border: 1px solid #aeaeae;
+}
+.image2 {
+	background-color: yellow;
+	width: 50%;
+	border: 1px solid #aeaeae;
+}
+
+.maincontent {
+	background-color: #e5e9ec !important;
+	padding: 40px 3% 3% 3%;
+}
+
+.maincontent h4 {
+	color: #999eab;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+.maincontent span.name {
+	color: #777d89;
+	font-weight: 400;
+}
+
+.maincontent span.name {
+	color: #777d89;
+}
+.feedback label[for="inquiries"]{
+	font-size: 14px;
+	font-weight: 600;
+	color: #002846;
+}
+.feedback, .offerdetails {
+	margin-top: 30px;
+	padding: 0px;
+}
+
+.feedback p, .feedback label, .offerdetails p {
+	/*font-size: 125%;*/
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: normal;
+}
+.offerdetails p{
+	margin-top: 15px;
+}
+.form-yesno{
+	/*width: 10%;*/
+	float: left;
+	margin-right: 15px;
+	padding-left: 15px;
+}
+.form-yesno-area{
+	width: 88%;
+	float: left;
+}
+.float-clear{
+	clear: both;
+}
+.feedback label, .offerdetails p {
+	color: #777d89;
+}
+.label-yes, .label-no{
+	min-width: 32px;
+}
+.feedback input[type='text']{
+	border-radius: 0px;
+	border: 2px solid #e73458;
+	text-align: center;
+	width: 100%;
+	/*font-size: 150%;*/
+	box-shadow: none;
+}
+
+.feedback textarea, .feedback textarea:focus{
+	border-radius: 0px;
+	border: 2px solid #e73458;
+	/*font-size: 130%;*/
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	resize: none;
+}
+
+.feedback input[type=submit]{
+	border-radius: 0px;
+	background-color: #e73458;
+	border: 4px solid #e73458;
+	font-size: 150%;
+	color: #e4e4e4;
+}
+
+.feedback input[type=submit]:hover {
+	background-color: #d91b41;
+	border: 4px solid #d91b41;
+}
+
+.comment {
+	/*font-style: italic;*/
+	font-size: 13px;
+}
+
+.red-text {
+	color: red;
+}
+
+.normal-text {
+	color: #777d89;
+}
+
+h4.columntitle {
+	color: #e73458;
+	/*font-size: 200%;*/
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.color1 {
+	color: #777d89;
+}
+
+.color2 {
+	/*color: #1a1c1a;*/
+	color: #343842;
+}
+
+.offerdetails .title, .historytitle, .title {
+	color: #002846;
+	border-left: 6px solid #e73458;
+	/*font-size: 150%;*/
+	font-size: 20px;
+	font-weight: normal;
+}
+h3.title{
+	/*font-weight: 300;*/
+}
+.offerdetails p{
+	display: table;
+}
+.offerdetails p span{
+	display: table-cell;
+	overflow: hidden;
+	/*padding-left: 10px;*/
+	text-overflow: ellipsis;
+}
+.offerdetails p{
+	padding-left: 12px;
+}
+.offerdetails p span:first-child{
+	white-space: nowrap;
+	font-weight: 600;
+}
+.offerdetails p span:last-child{
+	padding-left: 5px;
+}
+/*======================= table ==========================*/
+table {
+	color: #fff;
+}
+
+table th, td {
+	/*font-family: calibri;*/
+	font-weight: normal;
+	/*font-size: 115%;*/
+	border: 2px solid #fff;
+	text-align: center;
+}
+
+table th {
+	background-color: #002846;
+}
+
+table td {
+	background-color: #728899;
+}
+
+table tfoot td {
+	background-color: #c9d2d8;
+	border-bottom: none;
+	color: #002846;
+}
+
+table tfoot td:nth-child(1){
+	color: #fff;
+	background-color: #002846;
+	font-weight: bold;
+}
+
+.table > thead > tr > th{
+	vertical-align: middle;
+}
+/*======================= table ==========================*/
+
+/*======================= check box ==========================*/
+.checkBox {
+	width: 28px;
+	height: 28px;
+	background: #e73458;
+	position: relative;
+	margin-top: 6px;
+	display: inline-block;
+}
+
+.checkBox label {
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 4px;
+	top: 4px;
+	background-color: #fff;
+}
+
+.checkBox label:after {
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 6px;
+	left: 4px;
+	border: 3px solid #e73458;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.checkBox label:hover::after {
+	opacity: 0.3;
+}
+
+.checkBox input[type=checkbox]:checked + label:after {
+	opacity: 1;
+}
+
+.checkBox input[type="radio"]:checked + label:after {
+	opacity: 1;
+}
+
+input[type="radio"] {
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -moz-appearance: checkbox;    /* Firefox */
+    -ms-appearance: checkbox;     /* not currently supported */
+}
+
+.nn {
+	opacity: 1;
+}
+/*======================= check box ==========================*/
+
+.feedback textarea:focus {
+	outline: none;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.mc2-feedback .form-group {
+	margin-left: -15px;
+	margin-right: -15px;
+}
